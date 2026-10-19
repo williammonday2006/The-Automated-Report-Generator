@@ -6,3 +6,6 @@ I created TruckReport and BikeReport, each with its own formatting method. Both 
 
 # Phase 3
 I added a boolean hook that lets trucks opt into maintenance checks while bikes use the default behavior and skip them. This makes optional behavior easy to customize without changing the overall workflow.
+
+# Phase 4
+I tested both reports and verified that the steps run in the correct order. The truck performs a maintenance check, while the bike skips it. I learned how the Template Method pattern reduces duplicated code and allows subclasses to customize behavior.
