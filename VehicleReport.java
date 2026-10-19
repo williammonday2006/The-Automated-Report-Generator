@@ -1,4 +1,3 @@
-
 public abstract class VehicleReport {
     public final void generateReport() {
         collectData();
